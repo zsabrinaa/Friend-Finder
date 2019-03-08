@@ -1,0 +1,260 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <!-- css -->
+    <link type="text/css" rel="stylesheet" src="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Survey Questions</h2>
+        <hr>
+
+        <h4>About You</h4>
+        <div id="valid">
+            <div class="input-field col s6">
+                <h5>Name (Required)</h5>
+                <input type="text" class="validate" placeholder="Your Name Here" id="userName">
+            </div>
+
+
+            <div class="input-field col s6">
+                <h5>Link to Photo Image (Required)</h5>
+                <input type="text" class="validate" placeholder="Photo Link Here" id="userImg">
+            </div>
+
+            <hr>
+
+            <h3><strong>Question 1</strong></h3>
+            <h4>You are an introvert person.</h4>
+            <div class="input-field col s12">
+                <select id="q1">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <h3><strong>Question 2</strong></h3>
+            <h4>Best at listening.</h4>
+            <div class="input-field col s12">
+                <select id="q2">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+
+            <h3><strong>Question 3</strong></h3>
+            <h4>Don't like people take adventage of you.</h4>
+            <div class="input-field col s12">
+                <select id="q3">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+
+            <h3><strong>Question 4</strong></h3>
+            <h4>Reliable person.</h4>
+            <div class="input-field col s12">
+                <select id="q4">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+
+            <h3><strong>Question 5</strong></h3>
+            <h4>Love pets.</h4>
+            <div class="input-field col s12">
+                <select id="q5">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+
+            <h3><strong>Question 6</strong></h3>
+            <h4>Love to drink.</h4>
+            <div class="input-field col s12">
+                <select id="q6">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+
+            <h3><strong>Question 7</strong></h3>
+            <h4>Beach is your destination.</h4>
+            <div class="input-field col s12">
+                <select id="q7">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <h3><strong>Question 8</strong></h3>
+            <h4>Waterfall is your destination.</h4>
+            <div class="input-field col s12">
+                <select id="q8">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <h3><strong>Question 9</strong></h3>
+            <h4>Beers!!!!</h4>
+            <div class="input-field col s12">
+                <select id="q9">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <h3><strong>Question 10</strong></h3>
+            <h4>Liquor!!!</h4>
+            <div class="input-field col s12">
+                <select id="q10">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+        </div>
+        <br>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle"
+                aria-hidden="true"></i>
+            Submit</button>
+
+    </div>
+    <footer class="footer text-center ">
+        <div class="container">
+            <p class="text-muted footerText">copyright 2019</p>
+        </div>
+    </footer>
+    <div id="match-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title"><strong>Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name"></h2>
+                    <img id="match-img" src="" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('select').formSelect();
+            $("#submit").on("click", function (event) {
+                event.preventDefault();
+                var friendsData = {
+                    name: $("#userName").val().trim(),
+                    photo: $("#userImg").val(),
+                    scores: [
+                        $("#q1").val().trim(),
+                        $("#q2").val().trim(),
+                        $("#q3").val().trim(),
+                        $("#q4").val().trim(),
+                        $("#q5").val().trim(),
+                        $("#q6").val().trim(),
+                        $("#q7").val().trim(),
+                        $("#q8").val().trim(),
+                        $("#q9").val().trim(),
+                        $("#q10").val().trim()
+                    ]
+                };
+                $.post("/api/friends", friendsData, function (data) {
+                    console.log(data);
+                    $("#match-name").text(data.matchName);
+                    $("#match-img").attr("src", data.matchImg);
+                    $("#match-modal").modal('show');
+
+                });
+
+
+            });
+        });
+
+
+    </script>
+
+</body>
+
+</html>
